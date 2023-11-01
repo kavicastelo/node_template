@@ -3,7 +3,7 @@ name: Node.Js Package
 on: push
 
 jobs:
-  publish-gpr:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
