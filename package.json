@@ -5,7 +5,8 @@
   "main": "index.js",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://github.com/kavicastelo/serverTemplate.git",
+    "type": "git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
