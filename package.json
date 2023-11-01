@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://github.com/kavicastelo/node_template.git",
-    "type": "git"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
