@@ -13,10 +13,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20.x
-          registry-url: https://npm.pkg.github.com/
-          scope: '@kavicastelo'
-      - run: npm install
-      - run: npm config set registry https://npm.pkg.github.com/@kavicastelo
-      - run: npm publish
+          registry-url: https://registry.npmjs.org/
+      - name: publish
+      - run: npm publish --access public
         env: 
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
