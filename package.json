@@ -1,11 +1,11 @@
 {
   "name": "@kavicastelo/node_template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/@kavicastelo"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
